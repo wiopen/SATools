@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TaskMonitor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x404 /fo"Release/TaskMonitor.res" /d "NDEBUG" "D:\Program Files\SATools\TaskMonitor\TaskMonitor.rc"" 
+Creating temporary file "C:\Users\Ether\AppData\Local\Temp\RSP35AB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/TaskMonitor.pdb" /machine:I386 /out:"bin/TaskMonitor.exe" 
+".\Release\CntrItem.obj"
+".\Release\Dbobject.obj"
+".\Release\LeftView.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\TaskMonitor.obj"
+".\Release\TaskMonitorDoc.obj"
+".\Release\TaskMonitorView.obj"
+".\Release\TaskMonitor.res"
+]
+Creating command line "link.exe @C:\Users\Ether\AppData\Local\Temp\RSP35AB.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+TaskMonitor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
