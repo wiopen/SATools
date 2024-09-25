@@ -7,7 +7,25 @@
 </h3>
 <h3>Command Lines</h3>
 Creating command line "rc.exe /l 0x404 /fo"Release/TaskMonitor.res" /d "NDEBUG" "D:\Program Files\SATools\TaskMonitor\TaskMonitor.rc"" 
-Creating temporary file "C:\Users\Ether\AppData\Local\Temp\RSP35AB.tmp" with contents
+Creating temporary file "C:\Users\Ether\AppData\Local\Temp\RSPAB6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/TaskMonitor.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\SATools\TaskMonitor\CntrItem.cpp"
+"D:\Program Files\SATools\TaskMonitor\Dbobject.cpp"
+"D:\Program Files\SATools\TaskMonitor\LeftView.cpp"
+"D:\Program Files\SATools\TaskMonitor\MainFrm.cpp"
+"D:\Program Files\SATools\TaskMonitor\TaskMonitor.cpp"
+"D:\Program Files\SATools\TaskMonitor\TaskMonitorDoc.cpp"
+"D:\Program Files\SATools\TaskMonitor\TaskMonitorView.cpp"
+]
+Creating command line "cl.exe @C:\Users\Ether\AppData\Local\Temp\RSPAB6.tmp" 
+Creating temporary file "C:\Users\Ether\AppData\Local\Temp\RSPAB7.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/TaskMonitor.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\SATools\TaskMonitor\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Ether\AppData\Local\Temp\RSPAB7.tmp" 
+Creating temporary file "C:\Users\Ether\AppData\Local\Temp\RSPAB8.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:no /pdb:"Release/TaskMonitor.pdb" /machine:I386 /out:"bin/TaskMonitor.exe" 
 ".\Release\CntrItem.obj"
@@ -20,9 +38,20 @@ Creating temporary file "C:\Users\Ether\AppData\Local\Temp\RSP35AB.tmp" with con
 ".\Release\TaskMonitorView.obj"
 ".\Release\TaskMonitor.res"
 ]
-Creating command line "link.exe @C:\Users\Ether\AppData\Local\Temp\RSP35AB.tmp"
+Creating command line "link.exe @C:\Users\Ether\AppData\Local\Temp\RSPAB8.tmp"
 <h3>Output Window</h3>
 Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CntrItem.cpp
+Dbobject.cpp
+LeftView.cpp
+MainFrm.cpp
+TaskMonitor.cpp
+TaskMonitorDoc.cpp
+TaskMonitorView.cpp
+Generating Code...
 Linking...
 
 

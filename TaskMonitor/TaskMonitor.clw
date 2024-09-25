@@ -15,9 +15,9 @@ Class3=CTaskMonitorView
 Class4=CMainFrame
 
 ResourceCount=7
-Resource1=IDR_MAINFRAME
-Resource2=IDR_CNTR_INPLACE
-Resource4=IDD_ABOUTBOX
+Resource1=IDR_CNTR_INPLACE
+Resource2=IDD_ABOUTBOX
+Resource4=IDR_MAINFRAME
 Class5=CLeftView
 Class6=CAboutDlg
 Resource7=IDD_TASKMONITOR_FORM
